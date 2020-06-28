@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="" />
+    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mysql-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-dao-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/mybatis-config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -43,8 +57,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1dr0mhQxiLvyOE3epDNFbRIub4W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -72,8 +90,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuccessKilledOrderMapperTest.query_by_id_with_stock_test">
-    <configuration name="StockMapperTest.queryAll_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpringDaoTest.query_by_id_with_stock_test">
+    <configuration name="SpringDaoTest.create_order_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
@@ -82,62 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.StockMapperTest" />
-      <option name="METHOD_NAME" value="queryAll_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockMapperTest.queryById_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.StockMapperTest" />
-      <option name="METHOD_NAME" value="queryById_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockMapperTest.reduce_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.StockMapperTest" />
-      <option name="METHOD_NAME" value="reduce_stock_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuccessKilledOrderMapperTest.create_order_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SuccessKilledOrderMapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
       <option name="METHOD_NAME" value="create_order_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuccessKilledOrderMapperTest.query_by_id_with_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringDaoTest.delete_order_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +116,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SuccessKilledOrderMapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
+      <option name="METHOD_NAME" value="delete_order_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDaoTest.query_by_id_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
+      <option name="METHOD_NAME" value="query_by_id_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDaoTest.query_by_id_with_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
       <option name="METHOD_NAME" value="query_by_id_with_stock_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDaoTest.reduce_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
+      <option name="METHOD_NAME" value="reduce_stock_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SuccessKilledOrderMapperTest.query_by_id_with_stock_test" />
-        <item itemvalue="JUnit.SuccessKilledOrderMapperTest.create_order_test" />
-        <item itemvalue="JUnit.IStockMapperTest.queryAll_test" />
-        <item itemvalue="JUnit.IStockMapperTest.queryById_test" />
-        <item itemvalue="JUnit.IStockMapperTest.reduce_stock_test" />
+        <item itemvalue="JUnit.SpringDaoTest.query_by_id_with_stock_test" />
+        <item itemvalue="JUnit.SpringDaoTest.delete_order_test" />
+        <item itemvalue="JUnit.SpringDaoTest.create_order_test" />
+        <item itemvalue="JUnit.SpringDaoTest.query_by_id_test" />
+        <item itemvalue="JUnit.SpringDaoTest.reduce_stock_test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,11 +192,22 @@
       <option name="presentableId" value="Default" />
       <updated>1593168064487</updated>
       <workItem from="1593168068995" duration="9229000" />
-      <workItem from="1593245838229" duration="15661000" />
+      <workItem from="1593245838229" duration="28552000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

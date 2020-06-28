@@ -16,7 +16,7 @@ public class SuccessKilledOrderMapperTest {
     private ISuccessKilledOrderMapper mapper = null;
 
     static {
-        String path = "config/mybatis-config";
+        String path = "config/mybatis-config.xml";
         InputStream in = SuccessKilledOrderMapperTest.class.getClassLoader().getResourceAsStream(path);
         factory = new SqlSessionFactoryBuilder().build(in);
     }

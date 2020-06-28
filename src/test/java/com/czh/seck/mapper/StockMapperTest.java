@@ -18,7 +18,7 @@ public class StockMapperTest {
     private IStockMapper mapper = null;
 
     static {
-        String path = "config/mybatis-config";
+        String path = "config/mybatis-config.xml";
         InputStream in = StockMapperTest.class.getClassLoader().getResourceAsStream(path);
         factory = new SqlSessionFactoryBuilder().build(in);
     }
