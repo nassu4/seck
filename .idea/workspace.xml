@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/ExecutionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/Exposer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/enums/SeckillResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/ExecutionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/RepeatedKillException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/SeckillClosedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/ISeckillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/impl/SeckillServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-service-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/service/SeckillServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czh/seck/mapper/ISuccessKilledOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/czh/seck/mapper/ISuccessKilledOrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SpringDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SpringDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/StockMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/StockMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SuccessKilledOrderMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SuccessKilledOrderMapperTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +195,7 @@
       <workItem from="1593168068995" duration="9229000" />
       <workItem from="1593245838229" duration="28552000" />
       <workItem from="1593353167334" duration="238000" />
-      <workItem from="1593391499417" duration="11363000" />
+      <workItem from="1593391499417" duration="11721000" />
     </task>
     <servers />
   </component>
