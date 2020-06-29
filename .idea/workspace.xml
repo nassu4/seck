@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mysql-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-dao-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/ExecutionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/Exposer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/enums/SeckillResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/ExecutionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/RepeatedKillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/SeckillClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/ISeckillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/impl/SeckillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-service-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/service/SeckillServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/mybatis-config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SpringDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/StockMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/mapper/SuccessKilledOrderMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czh/seck/mapper/ISuccessKilledOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/czh/seck/mapper/ISuccessKilledOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SpringDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SpringDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/StockMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/StockMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SuccessKilledOrderMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/mapper/SuccessKilledOrderMapperTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +47,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -66,7 +77,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OJ" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +90,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.czh.seck.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,50 +111,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringDaoTest.query_by_id_with_stock_test">
-    <configuration name="SpringDaoTest.create_order_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeckillServiceTest.executeSeckill">
+    <configuration name="SeckillServiceTest.executeSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="PATTERN" value="com.czh.seck.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
-      <option name="METHOD_NAME" value="create_order_test" />
+      <option name="PACKAGE_NAME" value="com.czh.seck.service" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" value="executeSeckill" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDaoTest.delete_order_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeckillServiceTest.exportSeckillUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="PATTERN" value="com.czh.seck.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
-      <option name="METHOD_NAME" value="delete_order_test" />
+      <option name="PACKAGE_NAME" value="com.czh.seck.service" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" value="exportSeckillUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDaoTest.query_by_id_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeckillServiceTest.queryAllStockById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="PATTERN" value="com.czh.seck.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
-      <option name="METHOD_NAME" value="query_by_id_test" />
+      <option name="PACKAGE_NAME" value="com.czh.seck.service" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" value="queryAllStockById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceTest.queryStockById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czh.seck.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czh.seck.service" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" value="queryStockById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,29 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDaoTest.reduce_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
-      <option name="METHOD_NAME" value="reduce_stock_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeckillServiceTest.executeSeckill" />
+        <item itemvalue="JUnit.SeckillServiceTest.exportSeckillUrl" />
+        <item itemvalue="JUnit.SeckillServiceTest.queryAllStockById" />
+        <item itemvalue="JUnit.SeckillServiceTest.queryStockById" />
         <item itemvalue="JUnit.SpringDaoTest.query_by_id_with_stock_test" />
-        <item itemvalue="JUnit.SpringDaoTest.delete_order_test" />
-        <item itemvalue="JUnit.SpringDaoTest.create_order_test" />
-        <item itemvalue="JUnit.SpringDaoTest.query_by_id_test" />
-        <item itemvalue="JUnit.SpringDaoTest.reduce_stock_test" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +214,8 @@
       <updated>1593168064487</updated>
       <workItem from="1593168068995" duration="9229000" />
       <workItem from="1593245838229" duration="28552000" />
+      <workItem from="1593353167334" duration="238000" />
+      <workItem from="1593391499417" duration="11363000" />
     </task>
     <servers />
   </component>
@@ -204,7 +227,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

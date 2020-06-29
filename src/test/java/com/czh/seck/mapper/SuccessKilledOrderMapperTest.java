@@ -11,7 +11,7 @@ import java.io.InputStream;
 
 public class SuccessKilledOrderMapperTest {
 
-    private static SqlSessionFactory factory = null;
+    private static SqlSessionFactory factory;
     private SqlSession sess = null;
     private ISuccessKilledOrderMapper mapper = null;
 

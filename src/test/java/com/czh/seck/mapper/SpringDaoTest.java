@@ -1,7 +1,5 @@
 package com.czh.seck.mapper;
 
-import org.hamcrest.core.Is;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

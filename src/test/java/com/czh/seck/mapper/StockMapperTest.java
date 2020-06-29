@@ -14,8 +14,8 @@ import java.time.Month;
 public class StockMapperTest {
 
     private static SqlSessionFactory factory;
-    private SqlSession sess = null;
-    private IStockMapper mapper = null;
+    private SqlSession sess;
+    private IStockMapper mapper;
 
     static {
         String path = "config/mybatis-config.xml";
