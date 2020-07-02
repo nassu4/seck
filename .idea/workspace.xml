@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="seck:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="" />
+    <list default="true" id="5603e889-ab08-45e9-9cd4-4f02c8f48625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/seck_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/seck_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/controller/SeckillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/RequestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/dto/StockResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/exception/ReWriteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-mvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/controller/SeckillControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seck.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/ISeckillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/ISeckillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czh/seck/service/impl/SeckillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring-dao-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-dao-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring-service-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-service-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/czh/seck/service/SeckillServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/czh/seck/service/SeckillServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czh/seck/service/ISeckillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/czh/seck/service/ISeckillService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czh/seck/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/czh/seck/service/impl/SeckillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/spring-dao-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/spring-dao-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/spring-service-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/spring-service-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/czh/seck/service/SeckillServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/czh/seck/service/SeckillServiceTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +61,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,30 +97,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OJ" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bookstore-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.czh.seck.controller" />
       <recent name="com.czh.seck.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\32846\IdeaProjects\seck\src\main\webapp" />
+      <recent name="C:\Users\32846\IdeaProjects\seck\src\main\webapp\homePage" />
+      <recent name="C:\Users\32846\IdeaProjects\seck\src\main\webapp\WEB-INF" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.czh.seck.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +145,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeckillServiceTest.executeSeckill">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration name="SeckillControllerTest.list" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="seck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czh.seck.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czh.seck.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.controller.SeckillControllerTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeckillServiceTest.executeSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
@@ -124,7 +194,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeckillServiceTest.queryAllStockById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeckillServiceTest.export_seckill_url_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +204,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.czh.seck.service" />
       <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
-      <option name="METHOD_NAME" value="queryAllStockById" />
+      <option name="METHOD_NAME" value="export_seckill_url_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeckillServiceTest.queryStockById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeckillServiceTest.query_stock_by_id_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
@@ -150,35 +220,117 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.czh.seck.service" />
       <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
-      <option name="METHOD_NAME" value="queryStockById" />
+      <option name="METHOD_NAME" value="query_stock_by_id_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDaoTest.query_by_id_with_stock_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeckillServiceTest.seckill_logic_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czh.seck.mapper.*" />
+          <option name="PATTERN" value="com.czh.seck.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.czh.seck.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.czh.seck.mapper.SpringDaoTest" />
-      <option name="METHOD_NAME" value="query_by_id_with_stock_test" />
+      <option name="PACKAGE_NAME" value="com.czh.seck.service" />
+      <option name="MAIN_CLASS_NAME" value="com.czh.seck.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" value="seckill_logic_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/seckill" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="seck:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/seckill" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_seck_2" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2617" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="seck:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SeckillControllerTest.list" />
+      <item itemvalue="JUnit.SeckillServiceTest.executeSeckill" />
+      <item itemvalue="JUnit.SeckillServiceTest.export_seckill_url_test" />
+      <item itemvalue="JUnit.SeckillServiceTest.exportSeckillUrl" />
+      <item itemvalue="JUnit.SeckillServiceTest.seckill_logic_test" />
+      <item itemvalue="JUnit.SeckillServiceTest.query_stock_by_id_test" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeckillServiceTest.query_stock_by_id_test" />
+        <item itemvalue="JUnit.SeckillServiceTest.seckill_logic_test" />
+        <item itemvalue="JUnit.SeckillServiceTest.export_seckill_url_test" />
         <item itemvalue="JUnit.SeckillServiceTest.executeSeckill" />
         <item itemvalue="JUnit.SeckillServiceTest.exportSeckillUrl" />
-        <item itemvalue="JUnit.SeckillServiceTest.queryAllStockById" />
-        <item itemvalue="JUnit.SeckillServiceTest.queryStockById" />
-        <item itemvalue="JUnit.SpringDaoTest.query_by_id_with_stock_test" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +347,7 @@
       <workItem from="1593168068995" duration="9229000" />
       <workItem from="1593245838229" duration="28552000" />
       <workItem from="1593353167334" duration="238000" />
-      <workItem from="1593391499417" duration="11721000" />
+      <workItem from="1593391499417" duration="63353000" />
     </task>
     <servers />
   </component>

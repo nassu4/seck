@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript">
+    function SetCookie(name, value) {
+        var expdate = new Date(); var argv = SetCookie.arguments;
+        var argc = SetCookie.arguments.length;
+        var expires = (argc > 2) ? argv[2] : null;
+        var path = (argc > 3) ? argv[3] : null; var domain = (argc > 4) ? argv[4] : null;
+        var secure = (argc > 5) ? argv[5] : false; if (expires != null) expdate.setTime(expdate.getTime() + (expires * 1000));
+        document.cookie = name + "=" + escape(value) + ((expires == null) ? "" : ("; expires=" + expdate.toGMTString()))
+            + ((path == null) ? "" : ("; path=" + path))
+            + ((domain == null) ? "" : ("; domain=" + domain))
+            + ((secure == true) ? "; secure" : "");
+    }
+    function login() {
+        SetCookie("phone", $("#phone").val());
+        window.location.href="list.html";
+    }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>秒杀</title>
+</head>
+<body>
+    <h1>请用手机号登陆</h1>
+    <input type="text" id="phone"/>
+    <button onclick="login()">登陆</button>
+</body>
+</html>

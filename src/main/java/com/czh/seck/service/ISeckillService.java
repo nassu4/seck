@@ -13,7 +13,7 @@ public interface ISeckillService {
 
     Stock queryStockById(long itemId);
 
-    List<Stock> queryAllStockById();
+    List<Stock> queryAllStock();
 
     /**
      * 秒杀开启时输出秒杀接口地址，否则输出系统时间和秒杀时间

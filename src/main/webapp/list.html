@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript">
+    function showDetail(obj) {
+        var cookies = document.cookie.split(";");
+        var flag = false;
+        for (var i = 0; i < cookies.length; i++)
+            if ("phone" == cookies[i].split("=")[0]) {
+                window.location.href = "detail/" + obj["value"] + ".html";
+                flag = true;
+            }
+        if (!flag) window.location.href="index.html";
+    }
+    $.ajax({
+        type: "GET",
+        url: "seckill/list",
+        success: function(list){
+            $('<h1>欢迎来到秒杀页面</h1>').appendTo($('#title'));
+            var t = $('<table border="1"><tr><th>产品名称</th><th>库存</th><th>开始时间</th><th>结束时间</th><th>创建时间</th><th>详情页面</th></tr></table>').appendTo($('#list'));
+            for (var i = 0; i < list.length; i++) {
+                $('<tr>' +
+                    '<td>' + list[i].itemName + '</td>' +
+                    '<td>' + list[i].itemStock + '</td>' +
+                    '<td>' + list[i].startTime + '</td>' +
+                    '<td>' + list[i].endTime + '</td>' +
+                    '<td>' + list[i].creationTime + '</td>' +
+                    '<td><button value=' + list[i].itemId + ' onclick=showDetail(this)>点击查看详情</button></td>' +
+                    '</tr>').appendTo(t);
+            }
+
+        }
+    })
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>秒杀</title>
+</head>
+<body>
+    <div id="title"></div>
+    <div id="list"></div>
+</body>
+
+</html>
